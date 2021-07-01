@@ -1,0 +1,21 @@
+<Container>:
+    padding: 2
+    orientation: 'vertical'
+    btn1: b1
+    l1: l1
+    txt: txtii
+    spacing: 2
+    Label:
+        id: l1
+        text: "Скопируйте в окно ниже полный путь\nдо изображения"
+        font_size: 25
+        size_hint: (1,.45)
+    TextInput:
+        id:txtii
+        font_size:15
+    Button:
+        id: b1
+        text: "Ok"
+        size_hint: (1,.35)
+        on_release:
+            root.run()
